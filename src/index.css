@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  -webkit-box-shadow: 0px 0px 10px 5px rgb(0, 119, 255); 
+  box-shadow: 0px 0px 10px 5px rgb(0, 119, 255);
+  margin: 0 auto;
+}
+
+
+.form {
+  margin:  2 0rem;
+  padding: 1rem;
+  background-color:rgb(0, 119, 255);
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+}
+
+.form select {
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.containerGroup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.groups {
+  background: rgb(215, 203, 203);
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  padding: 1rem;
+  margin: 1em;
+  background-color:rgb(0, 119, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+  color:white;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.groups div,button{
+  padding: 3px 0;
+}
+
+
+.btnFriend {
+  background:none;
+  border: none;
+  color:white;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+
+}
+
+.loading {
+  color: rgb(0, 119, 255);
+  margin: 0 auto;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+
